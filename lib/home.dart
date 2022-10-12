@@ -14,9 +14,9 @@ class _HomeScreenState extends State<HomeScreen> {
   bool isComment = false;
 
   List<String> videos = [
-    "https://assets.mixkit.co/videos/preview/mixkit-under-a-peripheral-road-with-two-avenues-on-the-sides-34560-large.mp4"
-        "https://assets.mixkit.co/videos/preview/mixkit-a-girl-blowing-a-bubble-gum-at-an-amusement-park-1226-large.mp4",
-    "https://assets.mixkit.co/videos/preview/mixkit-people-working-with-electronic-devices-42639-large.mp4",
+    "https://assets.mixkit.co/videos/preview/mixkit-under-a-peripheral-road-with-two-avenues-on-the-sides-34560-large.mp4",
+    "https://assets.mixkit.co/videos/preview/mixkit-a-girl-blowing-a-bubble-gum-at-an-amusement-park-1226-large.mp4",
+    "https://assets.mixkit.co/videos/preview/mixkit-people-working-with-electronic-devices-42639-large.mp4"
   ];
   List<VideoPlayerController> _controllers = [];
   List<String> favoriteVideo = <String>[];
